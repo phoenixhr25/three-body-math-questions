@@ -1,10 +1,21 @@
-# Q3：递减的数列，隐藏的规律
+# Q3：“82, 50, 26 — what’s the next number?”
+递减的数列，隐藏的规律
 
+“82, 50, 26 — what’s the next number?”
 “82，50，26，下一个数是多少？”
 
-她拿出纸和笔，试着算了几步，发现每次递减的数（32、24、16）正好每次少8。
 
-“那就是26再减16，等于10！”
-“没错！”
+import matplotlib.pyplot as plt
 
-成长的数列从来不是简单的加减法，而是要不断观察、归纳，找到属于自己的“隐藏模式”。
+numbers = [82]
+diffs = [32, 24, 16]
+for d in diffs:
+    numbers.append(numbers[-1] - d)
+
+steps = list(range(1, len(numbers)+1))
+plt.plot(steps, numbers, marker='o')
+plt.title("Trend of the Decreasing Sequence")
+plt.xlabel("Step Number")
+plt.ylabel("Sequence Value")
+plt.show()
+
