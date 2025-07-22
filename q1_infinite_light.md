@@ -1,8 +1,9 @@
-# Q1：无限之灯，有限之时
+# Q1: The Infinite Light within Finite Time
+Q1：无限之灯，有限之时
 
+“There is a light that is initially off.It flashes once after 1 minute, then flashes again after half a minute, then again after a quarter, then every time interval is half the previous one…
+So, how many times does it flash by the end of 2 minutes?”
 “有一盏灯关着，一分钟后闪亮一下，再过半分钟再闪一下，接着每隔上一次一半的时间再次闪亮……请问，两分钟时，灯共闪了多少次？”
-
-她皱着眉认真算着，然后疑惑地问：“难道不会一直闪下去吗？”
 
 其实，这就是“无限趋近”的奇妙。在有限的时间里，可以发生无限多次事件。答案是：**无数次**。
 
